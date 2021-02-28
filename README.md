@@ -25,6 +25,73 @@ This is a program which is written to play scrambled word game. In this game, th
 ## Description of the Scramble-Word-Game
 The program reads the list of words from the attached file named "wordList.txt" one at a time and adding each word to the list. This file consist of 300 random dictionary words. Among them 100 are six letter long, 100 are seven letter and remaining 100 are more eight or more than that. A secret word is chosen from the wordlist, break them into list of individual letters and then create a scramble copy of the list. This program first display the list of scramble words, printed scramble word and welcome the user with instruction to play the game. The player is allowed to guess only one word at a time. After guessing each word, it shows whether the guess was right or wrong along with the printed scrambled word with the number of incorrect guess and any correct letter player has guessed. Again, the player is prompt to guess the letter and compared with the next letter of the secret word. If the guess does not matches, the number of incorrect guess increases by one and if the guessed word is correct then it adds the letter to the list of correctly guessed. This process keep on repeating until all the letters matches as well as become equal to the length of the secret word. At that point, the game is over by displaying the completed word along with the a message of total incorrect guesses the player made.
 
+## The output of the game look like
+
+    Welcome to Scramble - Word-Game!
+
+    Try to guess the scrambled word, one letter at a time!
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..w
+    Incorrect guess: 1
+    Letters already guessed: 
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..o
+    Incorrect guess: 2
+    Letters already guessed: 
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..r
+    Incorrect guess: 2
+    Letters already guessed: R
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..o
+    Incorrect guess: 3
+    Letters already guessed: R
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..u
+    Incorrect guess: 3
+    Letters already guessed: RU
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..d
+    Incorrect guess: 4
+    Letters already guessed: RU
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..o
+    Incorrect guess: 5
+    Letters already guessed: RU
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..n
+    Incorrect guess: 5
+    Letters already guessed: RUN
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..d
+    Incorrect guess: 5
+    Letters already guessed: RUND
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..o
+    Incorrect guess: 5
+    Letters already guessed: RUNDO
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..w
+    Incorrect guess: 5
+    Letters already guessed: RUNDOW
+
+    Scrambled word:  NNOWRDU
+    Enter your guess..n
+    Incorrect guess: 5
+    Letters already guessed: RUNDOWN
+    Congratulations! You found the word after 5 incorrect guesses.
+
 ## Uses of if-else statement, list and loop in the program
 
 **list[]** - It is used to store an ordered collection of items separate by commas and enclosed by brackets[].
